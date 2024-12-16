@@ -17,4 +17,7 @@ public class UserProfileDTO
     public string IdentityUserId { get; set; }
 
     public IdentityUser IdentityUser { get; set; }
+    public List<ChoreAssignmentDTO> ChoreAssignments { get; set; } = new List<ChoreAssignmentDTO>();
+    public List<ChoreCompletionDTO> ChoreCompletions { get; set; } = new List<ChoreCompletionDTO>();
+
 }
